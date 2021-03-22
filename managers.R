@@ -54,12 +54,14 @@ managers_data
 
 # recode age_cat so that it is ordinal and factored
 # with the order younf, middle aged, elder
-age_cat <- factor(managers_data$AgeCat, order = TRUE, levels = c("young","middle Aged", "Elder"))
+age_cat <- factor(managers_data$AgeCat, order = TRUE, levels = c("young","Middle Aged", "Elder"))
 age_cat
 
 # replace manager_data age_cat variable with
+
 # factored variable 
 managers_data$AgeCat <- age_cat
 managers_data
 # look at the structure of data frame
 str(managers_data)
+
