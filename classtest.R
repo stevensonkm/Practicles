@@ -68,6 +68,7 @@ include_list <- names(sorted_data) %in% c("datetime", "city", "country", "shape"
 include_list  
 sorted_ufo_data <- sorted_data
 sorted_ufo_data
+head(sorted_ufo_data, 15)
 
 # 9 
 # Find all the entries in df using the subset function 
